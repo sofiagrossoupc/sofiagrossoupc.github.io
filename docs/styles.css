@@ -1,6 +1,7 @@
-/* 1. IMPORTACIÓN DE FUENTE: Cambiada a Archivo */
-@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Glass+Antiqua&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Glass+Antiqua&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 
 /* 2. VARIABLES DE DISEÑO */
 :root {
@@ -60,6 +61,7 @@ body {
 /* 6. ENCABEZADO Y JERARQUÍA */
 h1 {
     font-size: 36px; /* Ajustado a tu pedido */
+    font-family: "Glass Antiqua", cursive;
     font-weight: 800;
     color: var(--primary-green);
     margin-bottom: 10px;
@@ -95,6 +97,7 @@ h2::first-letter {
 
 p {
     font-size: 1.1rem;
+    font-family: 'Archivo', sans-serif
     line-height: 1.7;
     color: var(--text-muted);
     margin-bottom: 15px;
